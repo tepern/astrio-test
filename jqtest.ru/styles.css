@@ -1,0 +1,36 @@
+html,body{font-family:Arial;color:black;}
+body, p, div, li{}
+h5{font-size:13px;color:#3a3a3a;}
+a{font-size:13px;}
+a:hover{text-decoration:none;}
+/*----Слайдер----*/
+#slideshow {}
+.container{padding:20px;}
+.slider{width:475px;overflow:hidden;height:215px;margin:auto;}
+.slider ul{width:9999px;height:215px;padding:0;}
+.slider__item{width:475px;overflow:hidden;display:block;float:left;}
+.slider .slider__img{max-width:475px;}
+.next{float:right;background-image:url(images/next.jpg);}
+.prev{float:left;background-image:url(images/prev.jpg);}
+.slider__button{position:absolute;margin-top:-64px;margin-left:10px;width:455px;z-index:100;}
+.slider__button button{width:38px;height:38px;border:none;border-radius: 2px;}
+/*---End Слайдер--*/
+/*-----Каталог-----*/
+#product-list{font-family:Arial;color:black;}
+#product-list .container{padding-bottom:150px;}
+#product-list h5{font-size:13px;color:#3a3a3a;margin:0 0 20px 5px;font-weight:bold;}
+.product__item{padding:20px 0 60px 0;border-bottom:1px solid #f0f0f0;height:280px;margin-top:10px;}
+.product__item div:first-child{display:flex;justify-content:center;}
+.product__item img{object-fit:cover;margin:10px 10px;height:135px;z-index:1;max-width:100%;}
+.product__item:hover .item__content{display:block;}
+.product__item:hover {border-top:3px solid #eb5c3e;border-left:3px solid #eb5c3e;border-right:3px solid #eb5c3e;}
+.product__item:hover  .button__cart{background-color:red;}
+.product__item:hover  .stars{color:red;}
+.price{position:absolute;bottom:15px;padding:0 5px;width:80%;font-size:13px;}
+.price span{font-size:18px;font-weight:bold;}
+.button__cart{color:white;background-color:black;padding:5px 5px;display:block;float:right;font-size:12px;}
+.button__cart:hover{text-decoration:none;color:white;}
+.stars{position:absolute;bottom:-10px;text-align:center;padding:0 10px 0 0;width:90%;justify-content:center;z-index:1000;}
+.stars span{background-color:white;padding:0 5px;}
+.item__content{display:none;background-color:white;padding:20px 5px 5px 5px;font-size:11px;color:#636363;z-index:100;position:absolute;top:100%;border-bottom:3px solid #eb5c3e;border-left:3px solid #eb5c3e;border-right:3px solid #eb5c3e;left:15px;right:15px;text-align:justify;min-height:20px;box-shadow:0px 10px 20px rgba(122,122,122,0.5);}
+/*---End Каталог---*/
